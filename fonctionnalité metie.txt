@@ -1,0 +1,19 @@
+Fonctionnalités métiers
+Chef de projet : Paul
+UX Designer : Fanny
+Circuit de validation : toutes les étapes du projet seront validées par Paul
+developpeur : moi
+
+techniques
+● Le développement devra se faire en CSS.
+● L’ensemble du site devra être responsive.
+● Le page HTML devra passer la validation w3c sans erreur.
+● Aucun framework ne devra être utilisé.
+● Le code CSS passe la validation w3c CSS.
+● Des règles CSS @media et/ou des feuilles de styles dédiées identifiées par un
+attribut media doivent être utilisées.
+4
+● Aucun code CSS ne devra être appliqué via un attribut style dans une balise
+HTML.
+● Le site doit être parfaitement compatible avec les dernières versions desktop de
+Chrome, Firefox et Safari.
