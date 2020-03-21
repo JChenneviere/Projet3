@@ -1,5 +1,22 @@
+@font-face {
+    font-family: "noteenchantée";
+    src: url("Menus/devonshire-regular.ttf") format("truetype");      
+   }
+@font-face {
+    font-family: "chicalafrancaise";
+    src: url("Menus/croissantone-regular.ttf") format("truetype");      
+   }
+@font-face {
+    font-family: "delicedespapilles";
+    src: url("Menus/DancingScript-Regular.ttf") format("truetype");      
+   }
+@font-face {
+    font-family: "palettedugout";
+    src: url("Menus/KaushanScript-Regular.otf") format("truetype");      
+   }
 body
 {
+    height:100%;
     width:40%;
     display:flex;
     flex-direction:column;
@@ -30,7 +47,7 @@ section
     margin:auto;
     justify-content:space-around;
 }
-section p
+/*section p
 {
     text-align:center;
     width:25%;
@@ -39,16 +56,82 @@ section p
     background-color: #26A69A;
     border:10px solid #26A69A;
     border-radius:10px;
-}
-article
+}*/
+
+
+.noteenchantée
 {
-    width:40%;
-}
-article img
-{
-    width:100%;
+    display:flex;
+    width: 40%;
+    height: 15em;
+    background-color:#FCDFDB;
+    margin-top:5%;
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    margin-top:15%;
+    justify-content:center;
+    font-family: noteenchantée, "comic sans ms", serif ;
+}
+.noteenchantée .menu
+{
+    font-family: "segoe print", "comic sans ms", serif ;
+    font-weight: bold;
+}
+.chicalafrancaise
+{
+    display:flex;
+    width: 40%;
+    height: 15em;
+    background-color:#fbf3fb;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: chicalafrancaise, "comic sans ms", serif ;
+}
+.chicalafrancaise .menu
+{
+    font-family: serif ;
+    font-weight: bold;
+}
+.delicedespapilles
+{
+    display:flex;
+    width: 40%;
+    height: 15em;
+    background-color:#fbfbfb;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: delicedespapilles, "comic sans ms", serif ;
+}
+.delicedespapilles .menu
+{
+    font-family: "segoe print", "comic sans ms", serif ;
+    font-weight: bold;
+}
+.lapalettedugout
+{
+    display:flex;
+    width: 40%;
+    height: 15em;
+    background-color:#ffffff;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: palettedugout, "comic sans ms", serif ;
+}
+.lapalettedugout .menu
+{
+    font-family: "segoe print", "comic sans ms", serif ;
+    font-weight: bold;
+}
+
+a
+{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    outline: none;
+    text-decoration: none;
 }
 footer
 {
@@ -81,15 +164,18 @@ footer a
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
     margin-top:10%;
 }
-@media all and (max-width: 900px)
+/*@media all and (max-width: 900px)
 {
     body
     {
         width:100%;
+        height:100%;
     }
     .pagemenu img
     {
         width:100%;
+        overflow-y:auto;
+        height:50%;
     }
     section p 
     {
