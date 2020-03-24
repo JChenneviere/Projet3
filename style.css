@@ -14,30 +14,50 @@
     font-family: "palettedugout";
     src: url("Menus/KaushanScript-Regular.otf") format("truetype");      
    }
-body
-{
-    height:100%;
-    width:40%;
-    display:flex;
-    flex-direction:column;
-    margin:auto;
-    border:1px solid black;
-}    
-header
-{
-    width:100%;
-    text-align:center;
-    background-color: #26A69A;
-}
+@font-face {
+    font-family: "header";
+    src: url("Menus/fallingsky.otf") format("truetype");      
+   }
+@font-face {
+    font-family: "footer";
+    src: url("Menus/bsb text classic.ttf") format("truetype");      
+   }
+   body
+   {
+       position:absolute;
+       left:35%;
+       right:35%;
+       height:100%;
+       width:45%;
+       display:flex;
+       flex-direction:column;
+       border:1px solid black;
+   }    
+   header
+   {
+       position:absolute;
+       height:12%;
+       width:100%;
+       text-align:center;
+       background-color: #579C87;
+   }
 h1
 {
     font-size:3em;
-    color:#FFB300;
+    color:#FDCB46;
     font-weight: bold;
+    font-family: header, "comic sans ms", serif ;
 }
 main
 {
 
+        display:flex;
+        align-self:center;
+        flex-direction:column;
+        width:80%;
+        margin-top:14%;
+        margin-bottom:8%;
+        overflow-y:auto;
 }
 section
 {
@@ -47,47 +67,60 @@ section
     margin:auto;
     justify-content:space-around;
 }
-/*section p
-{
-    text-align:center;
-    width:25%;
-    font-size:1.5em;
-    color:#FFB300;
-    background-color: #26A69A;
-    border:10px solid #26A69A;
-    border-radius:10px;
-}*/
-
 
 .noteenchantée
 {
     display:flex;
     width: 40%;
-    height: 15em;
+    height: 27em;
     background-color:#FCDFDB;
     margin-top:5%;
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
     justify-content:center;
+
+}
+.noteenchantée h5
+{
+    margin-bottom:0%;
+    font-size:1.8em;
+    font-weight:lighter;
+    color:#58272e;
     font-family: noteenchantée, "comic sans ms", serif ;
 }
 .noteenchantée .menu
 {
+    margin-top:5%;
+    font-size:2.2em;
+    font-weight:bold;
+    color:#58272e;
     font-family: "segoe print", "comic sans ms", serif ;
-    font-weight: bold;
 }
 .chicalafrancaise
 {
     display:flex;
     width: 40%;
-    height: 15em;
+    height: 27em;
     background-color:#fbf3fb;
     margin-top:5%;
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
     justify-content:center;
+
+}
+.chicalafrancaise h5
+{
+    margin-bottom:0%;
+    font-size:1.2em;
     font-family: chicalafrancaise, "comic sans ms", serif ;
+    background: -webkit-linear-gradient(left,#c87a21, #b47cc5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 .chicalafrancaise .menu
 {
+    margin-top:5%;
+    font-size:2.2em;
+    color:#c87a21;
     font-family: serif ;
     font-weight: bold;
 }
@@ -95,15 +128,26 @@ section
 {
     display:flex;
     width: 40%;
-    height: 15em;
+    height: 27em;
     background-color:#fbfbfb;
     margin-top:5%;
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
     justify-content:center;
     font-family: delicedespapilles, "comic sans ms", serif ;
 }
+.delicedespapilles h5
+{
+    margin-bottom:0%;
+    font-size:2.0em;
+    background: -webkit-linear-gradient(left,#347df1, #a0c6f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .delicedespapilles .menu
 {
+    margin-top:5%;
+    font-size:2.2em;
+    color:#347df1;
     font-family: "segoe print", "comic sans ms", serif ;
     font-weight: bold;
 }
@@ -111,19 +155,29 @@ section
 {
     display:flex;
     width: 40%;
-    height: 15em;
+    height: 27em;
     background-color:#ffffff;
     margin-top:5%;
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
     justify-content:center;
     font-family: palettedugout, "comic sans ms", serif ;
 }
+.lapalettedugout h5
+{
+    margin-bottom:0%;
+    font-size:2.0em;
+    background: -webkit-linear-gradient(left, #76bf5c, #e0f3d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .lapalettedugout .menu
 {
+    margin-top:5%;
+    font-size:2.0em;
+    color:#76bf5c;
     font-family: "segoe print", "comic sans ms", serif ;
     font-weight: bold;
 }
-
 a
 {
     display:flex;
@@ -133,23 +187,42 @@ a
     outline: none;
     text-decoration: none;
 }
+.prochainement
+{
+    display:flex;
+    margin-top:5%;
+    background-color: #26A69A;
+    width:40%;
+    height:5%;
+    border-radius: 10px;
+}
+.prochainement p
+{
+    margin-top:1%;
+    font-size:2.2em;
+    color:#FFB300;
+
+}
 footer
 {
-    height:50px;
+    position:absolute;
+    bottom:0px;
     width:100%;
-    background-color: #26A69A;
+    height:70px;
+    background-color: #579C87;
     display:flex;
     justify-content:space-between;
     align-items:center;
 }
 footer a
 {
-    font-size:1.2em;
+    font-size:1.6em;
     margin-left:2%;
     margin-right:2%;
-    color:#FFB300;
+    color:#FDCB46;
     outline: none;
     text-decoration: none;
+    font-family: footer, "comic sans ms", serif ;
 }
 .pagemenu
 {
