@@ -54,7 +54,7 @@ main
         display:flex;
         align-self:center;
         flex-direction:column;
-        width:80%;
+        width:90%;
         margin-top:14%;
         margin-bottom:8%;
         overflow-y:auto;
