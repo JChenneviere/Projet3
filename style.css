@@ -191,16 +191,17 @@ a
 {
     display:flex;
     margin-top:5%;
-    background-color: #26A69A;
+    background-color: #579C87;
     width:40%;
-    height:5%;
+    height:7%;
+    margin-bottom:1%;
     border-radius: 10px;
 }
 .prochainement p
 {
     margin-top:1%;
     font-size:2.2em;
-    color:#FFB300;
+    color:#FDCB46;
 
 }
 footer
