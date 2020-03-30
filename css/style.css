@@ -1,0 +1,750 @@
+@font-face {
+    font-family: "noteenchantee";
+    src: url("../font/devonshire-regular.ttf") format("truetype");      
+   }
+@font-face {
+    font-family: "chicalafrancaise";
+    src: url("../font/croissantone-regular.ttf") format("truetype");      
+   }
+@font-face {
+    font-family: "delicedespapilles";
+    src: url("../font/DancingScript-Regular.ttf") format("truetype");      
+   }
+@font-face {
+    font-family: "palettedugout";
+    src: url("../font/KaushanScript-Regular.otf") format("truetype");      
+   }
+@font-face {
+    font-family: "header";
+    src: url("../font/fallingsky.otf") format("truetype");      
+   }
+@font-face {
+    font-family: "footer";
+    src: url("../font/bsb text classic.ttf") format("truetype");      
+   }
+   body
+   {
+       margin:auto;
+       width:40%;
+       display:flex;
+       flex-direction:column;
+       border:1px solid black;
+   }    
+   header
+   {
+       height:120px;
+       width:100%;
+       text-align:center;
+       background-color: #579C87;
+   }
+h1
+{
+    font-size:3em;
+    color:#FDCB46;
+    font-weight: bold;
+    font-family: "header", "comic sans ms", serif ;
+}
+main
+{
+    display:flex;
+    align-self:center;
+    flex-direction:column;
+    width:90%;
+    margin-bottom:8%;
+}
+section
+{
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+    margin:auto;
+    justify-content:space-around;
+}
+
+.noteenchantee
+{
+    display:flex;
+    width: 40%;
+    height: 27em;
+    background-color:#FCDFDB;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+
+}
+.noteenchantee h5
+{
+    margin-bottom:0%;
+    font-size:1.8em;
+    font-weight:lighter;
+    color:#58272e;
+    font-family: noteenchantee, "comic sans ms", serif ;
+}
+.noteenchantee .menu
+{
+    margin-top:5%;
+    font-size:2.2em;
+    font-weight:bold;
+    color:#58272e;
+    font-family: "segoe print", "comic sans ms", serif ;
+}
+
+/******************************************************************************************
+*************************************CHIC A LA FRANCAISE***********************************
+******************************************************************************************/
+.chicalafrancaise
+{
+    display:flex;
+    width: 40%;
+    height: 27em;
+    background-color:#fbf3fb;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+
+}
+.chicalafrancaise h5
+{
+    margin-bottom:0%;
+    font-size:1.0em;
+    font-family: chicalafrancaise, "comic sans ms", serif ;
+    background: -webkit-linear-gradient(left,#c87a21, #b47cc5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.chicalafrancaise .menu
+{
+    margin-top:5%;
+    font-size:2.2em;
+    color:#c87a21;
+    font-family: serif ;
+    font-weight: bold;
+}
+
+.chicalafrancaisebis main
+{
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    margin-top:5%;
+    width:80%;
+    margin-bottom:15%;
+    padding-bottom:5%;
+    background-color:#fbf3fb;
+    text-align:center;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+}
+.chicalafrancaisebis section
+{
+display:flex;
+flex-direction:column;
+width:100%;
+
+}
+.chicalafrancaisebis
+{
+    font-family: "Calisto MT", "comic sans ms", serif ;
+}
+.chicalafrancaisebis .alignement
+{
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    align-self:center;
+}
+.chicalafrancaisebis .denomination
+{
+    margin-left:8%;
+    text-align:left;
+}
+.chicalafrancaisebis .denomination p
+{
+    font-size:0.9em;
+    margin-top:0%;
+    margin-bottom:0.8em;
+}
+.chicalafrancaisebis .prix
+{
+    margin-right:5%;
+    text-align:right;
+    font-size:0.9em;
+}
+.chicalafrancaisebis .prix p
+{
+margin-top:0%;
+margin-bottom:0.8em;
+}
+.chicalafrancaisebis h2
+{
+    font-weight:lighter;
+    font-size:2em;
+    margin-bottom:10%;
+    font-family: chicalafrancaise, "comic sans ms", serif ;
+    background: -webkit-linear-gradient(left,#c87a21,#905CFD );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.chicalafrancaisebis h3
+{
+    display:flex;
+    justify-content:space-between;
+    font-size:1.3em;
+    padding-bottom:2%;
+    margin-top:5%;
+}
+.marge
+{
+margin-left:10%;
+}
+.chicalafrancaisebis h4
+{
+    font-size:1.5em;
+    font-weight:bold;
+    margin-top:0%;
+    margin-bottom:3%;
+}
+.chicalafrancaisebis .entree
+{
+    color:#c87a21;
+}
+.chicalafrancaisebis .plat
+{
+    color:#A56799;
+}
+.chicalafrancaisebis .dessert
+{
+    color:#6E4CCC;
+}
+.taille-ornement
+{
+    width:30%
+}
+.entree-ornement
+{
+    fill:#c87a21;
+}
+.demitour-ornement
+{
+    transform:rotate(0.5turn)
+}
+.plat-ornement
+{
+    fill:#A56799;
+}
+.dessert-ornement
+{
+    fill:#6E4CCC;
+}
+/******************************************************************************************
+*************************************DELICES DES PAPILLES**********************************
+******************************************************************************************/
+
+.delicedespapilles
+{
+    display:flex;
+    width: 40%;
+    height: 27em;
+    background-color:#fbfbfb;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: delicedespapilles, "comic sans ms", serif ;
+}
+.delicedespapilles h5
+{
+    margin-bottom:0%;
+    font-size:1.6em;
+    background: -webkit-linear-gradient(left,#347df1, #a0c6f8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.delicedespapilles .menu
+{
+    margin-top:5%;
+    font-size:2.2em;
+    color:#347df1;
+    font-family: "segoe print", "comic sans ms", serif ;
+    font-weight: bold;
+}
+.delicedespapillesbis main
+{
+    display:flex;
+    align-self:center;
+    flex-direction:column;
+    width:100%;
+    margin-top:5%;
+    margin-bottom:10%;
+    padding-bottom:5%;
+    overflow-y:auto;
+    background-color:#EDEFEF;
+    text-align:center;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+}
+.delicedespapillesbis section
+{
+display:flex;
+flex-direction:column;
+}
+.delicedespapillesbis
+{
+    font-family: "segoe print", "comic sans ms", serif ;
+}
+.delicedespapillesbis .alignement
+{
+    display:flex;
+    justify-content:space-between;
+}
+.delicedespapillesbis .denomination
+{
+    margin-left:10%;
+    text-align:left;
+}
+.delicedespapillesbis .denomination p
+{
+    font-size:0.8em;
+    margin-top:0%;
+    margin-bottom:0.8em;
+}
+.delicedespapillesbis .prix
+{
+    margin-right:10%;
+    text-align:right;
+    font-size:0.9em;
+}
+.delicedespapillesbis .prix p
+{
+margin-top:0%;
+margin-bottom:0.3em;
+}
+.delicedespapillesbis h2
+{
+    font-size:3em;
+    font-weight:lighter;
+    font-family: delicedespapilles, "comic sans ms", serif ;
+    background: -webkit-linear-gradient(left,#043DE3,#5BADF6 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.delicedespapillesbis h3
+{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    font-weight:lighter;
+    font-size:1.2em;
+    padding-bottom:2%;
+    margin-top:5%;
+}
+.delicedespapillesbis h4
+{
+    font-size:1.5em;
+    font-weight:bold;
+    margin-top:0%;
+    margin-bottom:3%;
+}
+
+.svdemitour
+{
+    transform: scale(-1, 1)
+}
+.delicedespapillesbis .entree2
+{
+    width:25%;
+    fill:#0228DD;
+}
+.delicedespapillesbis .plat2
+{
+    width:25%;
+    fill:#0670F3
+}
+.delicedespapillesbis .dessert2
+{
+    width:25%;
+    fill:#229DF9
+}
+
+/******************************************************************************************
+*************************************LA PALETTE DU GOUT************************************
+******************************************************************************************/
+.lapalettedugout
+{
+    display:flex;
+    width: 40%;
+    height: 27em;
+    background-color:#ffffff;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: palettedugout, "comic sans ms", serif ;
+}
+.lapalettedugout h5
+{
+    margin-bottom:0%;
+    font-size:1.6em;
+    background: -webkit-linear-gradient(left, #76bf5c, #e0f3d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.lapalettedugout .menu
+{
+    margin-top:5%;
+    font-size:2.0em;
+    color:#76bf5c;
+    font-family: "segoe print", "comic sans ms", serif ;
+    font-weight: bold;
+}
+.lapalettedugoutbis main
+{
+    display:flex;
+    align-self:center;
+    flex-direction:column;
+    width:80%;
+    margin-top:14%;
+    margin-bottom:8%;
+    overflow-y:auto;
+    text-align:center;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+}
+.lapalettedugoutbis section
+{
+display:flex;
+flex-direction:column;
+}
+.lapalettedugoutbis .alignement
+{
+    display:flex;
+    justify-content:space-between;
+}
+.lapalettedugoutbis .denomination
+{
+    margin-left:10%;
+    text-align:left;
+}
+.lapalettedugoutbis .denomination p
+{
+    font-size:0.8em;
+    margin-top:0%;
+    margin-bottom:0.8em;
+}
+.lapalettedugoutbis .prix
+{
+    margin-right:10%;
+    text-align:right;
+    font-size:0.9em;
+}
+.lapalettedugoutbis .prix p
+{
+margin-top:0%;
+margin-bottom:0.3em;
+}
+
+
+
+/******************************************************************************************
+*************************************ACCUEIL***********************************************
+******************************************************************************************/
+a
+{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content:center;
+    outline: none;
+    text-decoration: none;
+}
+.prochainement
+{
+    display:flex;
+    margin-top:5%;
+    margin-bottom:5%;
+    background-color: #579C87;
+    width:40%;
+    height:3em;
+    border-radius: 10px;
+}
+.prochainement p
+{
+    font-size:2.2em;
+    color:#FDCB46;
+    margin-top:2%;
+
+}
+footer
+{
+    position:fixed;
+    margin-top:2em;
+    bottom:0px;
+    width:40%;
+    height:70px;
+    background-color: #579C87;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+footer a
+{
+    font-size:1.6em;
+    margin-left:2%;
+    margin-right:2%;
+    color:#FDCB46;
+    outline: none;
+    text-decoration: none;
+    font-family: footer, "comic sans ms", serif ;
+}
+.pagemenu
+{
+    display:flex;
+    justify-content:center;
+
+}
+.pagemenu img
+{
+    margin-bottom:10%;
+    width:80%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    margin-top:10%;
+}
+/******************************************************************************************
+*************************************NOTE ENCHANTEE****************************************
+******************************************************************************************/
+
+.noteenchanteebis main
+{
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+    margin-top:5%;
+    width:80%;
+    margin-bottom:15%;
+    background-color:#FCDFDB;
+    text-align:center;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+}
+.noteenchanteebis section
+{
+display:flex;
+flex-direction:column;
+
+}
+.noteenchanteebis
+{
+    font-family: "segoe print", "comic sans ms", serif ;
+    color:#58272e;
+    font-size:0.8em;
+}
+.noteenchanteebis .alignement
+{
+    display:flex;
+    justify-content:space-between;
+}
+.noteenchanteebis .denomination
+{
+    font-size:1.0em;
+    text-align:left;
+
+}
+.noteenchanteebis .denomination p
+{
+    margin-top:0%;
+    margin-bottom:3%;
+}
+.noteenchanteebis .prix
+{
+    text-align:right;
+    font-weight:bold;
+    font-size:1.2em;
+}
+.noteenchanteebis .prix p
+{
+    margin-top:0%;
+    margin-bottom:12%;
+}
+.noteenchanteebis h2, .noteenchanteebis h3
+{
+    font-size:2.5em;
+    font-weight:lighter;
+    color:#58272e;
+    font-family: noteenchantee, "comic sans ms", serif ;
+}
+.noteenchanteebis h3
+{
+    font-size:2em;
+    padding-bottom:5%;
+}
+.noteenchanteebis h4
+{
+    display:flex;
+    justify-content:space-between;
+    font-size:1.5em;
+    font-weight:bold;
+    margin-top:10%;
+    margin-bottom:3%;
+}
+.svgauche
+{
+    width:30%;
+    fill:#58272e;
+}
+
+
+/******************************************************************************************
+*************************************RESPONSIVE********************************************
+******************************************************************************************/
+
+
+
+@media all and (min-width: 651px) and (max-width: 950px)
+{
+    body
+    {
+        margin:auto;
+        width:100%;
+        display:flex;
+        border:1px solid black;
+    }
+    header
+    {
+        position:fixed;
+        height:120px;
+        width:100%;
+        text-align:center;
+        background-color: #579C87;
+    }
+    footer
+{
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:70px;
+    background-color: #579C87;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+}
+
+@media all and (min-width: 951px) and (max-width: 1300px)
+{
+    body
+    {
+        width:70%;
+        display:flex;
+        border:1px solid black;
+    }
+    header
+    {
+        position:fixed;
+        height:120px;
+        width:70%;
+        text-align:center;
+        background-color: #579C87;
+    }
+    footer
+{
+    position:fixed;
+    bottom:0px;
+    width:70%;
+    height:70px;
+    background-color: #579C87;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+}
+@media all and (max-width: 650px)
+{
+    body
+    {
+        margin:auto;
+        width:100%;
+        display:flex;
+        border:1px solid black;
+    }
+    header
+    {
+        position:fixed;
+        margin-bottom:5%;
+        height:120px;
+        width:100%;
+        text-align:center;
+        background-color: #579C87;
+    }
+    footer
+{
+    position:fixed;
+    margin-top:10%;
+    bottom:0px;
+    width:100%;
+    height:70px;
+    background-color: #579C87;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+main 
+{
+    margin-top:25%;
+}
+section
+{
+    width:80%;
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+}
+.noteenchantée
+{
+    margin:auto;
+    display:flex;
+    width: 80%;
+    height: 20em;
+    background-color:#FCDFDB;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+
+}
+.chicalafrancaise
+{
+    margin:auto;
+    display:flex;
+    width: 80%;
+    height: 20em;
+    background-color:#fbf3fb;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+
+}
+.lapalettedugout
+{
+    margin:auto;
+    display:flex;
+    width: 80%;
+    height: 20em;
+    background-color:#ffffff;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: palettedugout, "comic sans ms", serif ;
+}
+.delicedespapilles
+{
+    margin:auto;
+    display:flex;
+    width: 80%;
+    height: 20em;
+    background-color:#fbfbfb;
+    margin-top:5%;
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+    justify-content:center;
+    font-family: delicedespapilles, "comic sans ms", serif ;
+}
+.prochainement p
+{
+    margin:auto;
+    font-size:1.7em;
+    color:#FDCB46;
+}
+}
