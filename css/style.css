@@ -88,7 +88,7 @@ section
 }
 .chicalafrancaisebis main
 {
-    align-self:center;
+
     margin-bottom:15%;
     padding-bottom:5%;
 }
@@ -106,7 +106,7 @@ width:100%;
 }
 .chicalafrancaisebis .denomination
 {
-    margin-left:8%;
+
 }
 .chicalafrancaisebis .denomination p
 {
@@ -138,7 +138,9 @@ width:100%;
 }
 .marge
 {
+    width:80%;
     margin-left:10%;
+    margin-right:10%;
 }
 
 .chicalafrancaisebis .entree
@@ -211,20 +213,12 @@ width:100%;
     background-color:#EDEFEF;
 }
 
-.delicedespapillesbis .denomination
-{
-    margin-left:10%;
-}
 .delicedespapillesbis .denomination p
 {
     font-size:0.8em;
     margin-bottom:0.8em;
 }
-.delicedespapillesbis .prix
-{
-    margin-right:10%;
-    font-size:0.9em;
-}
+
 .delicedespapillesbis .prix p
 {
     margin-bottom:0.3em;
@@ -433,9 +427,17 @@ footer a
 {
     text-align:left;
 }
+.ML10
+{
+    margin-left:10%;
+}
 .right
 {
     text-align:right;
+}
+.MR10
+{
+    margin-right:10%;
 }
 .top0, .noteenchanteebis .denomination p, .noteenchanteebis .prix p, .chicalafrancaisebis .prix p, .chicalafrancaisebis .denomination p,  .delicedespapillesbis .denomination p, .delicedespapillesbis .prix p
 {
@@ -532,9 +534,12 @@ footer a
     font-size:0.8em;
 }
 
-.noteenchanteebis .denomination
+.denomination
 {
+
     font-size:1.0em;
+    display:flex;
+    justify-content:space-between;
 }
 .noteenchanteebis .denomination p
 {
@@ -640,7 +645,7 @@ section
 {
     display:flex;
     flex-direction:column;
-    margin:auto;
+
 }
 .thumbaccueil, .noteenchantee, .chicalafrancaise, .lapalettedugout, .delicedespapilles
 {
