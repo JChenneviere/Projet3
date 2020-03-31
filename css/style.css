@@ -22,26 +22,25 @@
     font-family: "footer";
     src: url("../font/bsb text classic.ttf") format("truetype");      
    }
-   body
-   {
-       margin:auto;
-       width:40%;
-       display:flex;
-       flex-direction:column;
-       border:1px solid black;
-   }    
-   header
-   {
-       height:120px;
-       width:100%;
-       text-align:center;
-       background-color: #579C87;
-   }
+body
+{
+    margin:auto;
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    border:1px solid black;
+}    
+header
+{
+    height:120px;
+    width:100%;
+    text-align:center;
+    background-color: #579C87;
+}
 h1
 {
     font-size:3em;
     color:#FDCB46;
-    font-weight: bold;
     font-family: "header", "comic sans ms", serif ;
 }
 main
@@ -61,48 +60,12 @@ section
     justify-content:space-around;
 }
 
-.noteenchantee
-{
-    display:flex;
-    width: 40%;
-    height: 27em;
-    background-color:#FCDFDB;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
 
-}
-.noteenchantee h5
-{
-    margin-bottom:0%;
-    font-size:1.8em;
-    font-weight:lighter;
-    color:#58272e;
-    font-family: noteenchantee, "comic sans ms", serif ;
-}
-.noteenchantee .menu
-{
-    margin-top:5%;
-    font-size:2.2em;
-    font-weight:bold;
-    color:#58272e;
-    font-family: "segoe print", "comic sans ms", serif ;
-}
 
 /******************************************************************************************
 *************************************CHIC A LA FRANCAISE***********************************
 ******************************************************************************************/
-.chicalafrancaise
-{
-    display:flex;
-    width: 40%;
-    height: 27em;
-    background-color:#fbf3fb;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
 
-}
 .chicalafrancaise h5
 {
     margin-bottom:0%;
@@ -115,32 +78,23 @@ section
 }
 .chicalafrancaise .menu
 {
-    margin-top:5%;
     font-size:2.2em;
     color:#c87a21;
     font-family: serif ;
-    font-weight: bold;
 }
-
+.CALFbgcolor
+{
+    background-color:#fbf3fb;
+}
 .chicalafrancaisebis main
 {
-    display:flex;
-    flex-direction:column;
     align-self:center;
-    margin-top:5%;
-    width:80%;
     margin-bottom:15%;
     padding-bottom:5%;
-    background-color:#fbf3fb;
-    text-align:center;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
 }
 .chicalafrancaisebis section
 {
-display:flex;
-flex-direction:column;
 width:100%;
-
 }
 .chicalafrancaisebis
 {
@@ -148,36 +102,28 @@ width:100%;
 }
 .chicalafrancaisebis .alignement
 {
-    width:80%;
-    display:flex;
-    justify-content:space-between;
     align-self:center;
 }
 .chicalafrancaisebis .denomination
 {
     margin-left:8%;
-    text-align:left;
 }
 .chicalafrancaisebis .denomination p
 {
     font-size:0.9em;
-    margin-top:0%;
     margin-bottom:0.8em;
 }
 .chicalafrancaisebis .prix
 {
     margin-right:5%;
-    text-align:right;
     font-size:0.9em;
 }
 .chicalafrancaisebis .prix p
 {
-margin-top:0%;
-margin-bottom:0.8em;
+    margin-bottom:0.8em;
 }
 .chicalafrancaisebis h2
 {
-    font-weight:lighter;
     font-size:2em;
     margin-bottom:10%;
     font-family: chicalafrancaise, "comic sans ms", serif ;
@@ -187,23 +133,14 @@ margin-bottom:0.8em;
 }
 .chicalafrancaisebis h3
 {
-    display:flex;
-    justify-content:space-between;
     font-size:1.3em;
     padding-bottom:2%;
-    margin-top:5%;
 }
 .marge
 {
-margin-left:10%;
+    margin-left:10%;
 }
-.chicalafrancaisebis h4
-{
-    font-size:1.5em;
-    font-weight:bold;
-    margin-top:0%;
-    margin-bottom:3%;
-}
+
 .chicalafrancaisebis .entree
 {
     color:#c87a21;
@@ -218,7 +155,7 @@ margin-left:10%;
 }
 .taille-ornement
 {
-    width:30%
+    width:31%
 }
 .entree-ornement
 {
@@ -242,13 +179,9 @@ margin-left:10%;
 
 .delicedespapilles
 {
-    display:flex;
-    width: 40%;
-    height: 27em;
+ 
     background-color:#fbfbfb;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
+
     font-family: delicedespapilles, "comic sans ms", serif ;
 }
 .delicedespapilles h5
@@ -267,60 +200,38 @@ margin-left:10%;
     font-family: "segoe print", "comic sans ms", serif ;
     font-weight: bold;
 }
+
+
+
+
 .delicedespapillesbis main
 {
-    display:flex;
-    align-self:center;
-    flex-direction:column;
-    width:100%;
-    margin-top:5%;
     margin-bottom:10%;
     padding-bottom:5%;
-    overflow-y:auto;
     background-color:#EDEFEF;
-    text-align:center;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
 }
-.delicedespapillesbis section
-{
-display:flex;
-flex-direction:column;
-}
-.delicedespapillesbis
-{
-    font-family: "segoe print", "comic sans ms", serif ;
-}
-.delicedespapillesbis .alignement
-{
-    display:flex;
-    justify-content:space-between;
-}
+
 .delicedespapillesbis .denomination
 {
     margin-left:10%;
-    text-align:left;
 }
 .delicedespapillesbis .denomination p
 {
     font-size:0.8em;
-    margin-top:0%;
     margin-bottom:0.8em;
 }
 .delicedespapillesbis .prix
 {
     margin-right:10%;
-    text-align:right;
     font-size:0.9em;
 }
 .delicedespapillesbis .prix p
 {
-margin-top:0%;
-margin-bottom:0.3em;
+    margin-bottom:0.3em;
 }
 .delicedespapillesbis h2
 {
     font-size:3em;
-    font-weight:lighter;
     font-family: delicedespapilles, "comic sans ms", serif ;
     background: -webkit-linear-gradient(left,#043DE3,#5BADF6 );
     -webkit-background-clip: text;
@@ -328,39 +239,21 @@ margin-bottom:0.3em;
 }
 .delicedespapillesbis h3
 {
-    width:100%;
     display:flex;
     justify-content:space-around;
-    font-weight:lighter;
-    font-size:1.2em;
+    font-size:1.0em;
     padding-bottom:2%;
-    margin-top:5%;
-}
-.delicedespapillesbis h4
-{
-    font-size:1.5em;
-    font-weight:bold;
-    margin-top:0%;
-    margin-bottom:3%;
-}
-
-.svdemitour
-{
-    transform: scale(-1, 1)
 }
 .delicedespapillesbis .entree2
 {
-    width:25%;
     fill:#0228DD;
 }
 .delicedespapillesbis .plat2
 {
-    width:25%;
     fill:#0670F3
 }
 .delicedespapillesbis .dessert2
 {
-    width:25%;
     fill:#229DF9
 }
 
@@ -369,13 +262,7 @@ margin-bottom:0.3em;
 ******************************************************************************************/
 .lapalettedugout
 {
-    display:flex;
-    width: 40%;
-    height: 27em;
     background-color:#ffffff;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
     font-family: palettedugout, "comic sans ms", serif ;
 }
 .lapalettedugout h5
@@ -398,10 +285,11 @@ margin-bottom:0.3em;
 {
     display:flex;
     align-self:center;
-    flex-direction:column;
+
     width:80%;
-    margin-top:14%;
-    margin-bottom:8%;
+    margin-top:4%;
+    margin-bottom:15%;
+    padding-bottom:5%;
     overflow-y:auto;
     text-align:center;
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
@@ -418,7 +306,7 @@ flex-direction:column;
 }
 .lapalettedugoutbis .denomination
 {
-    margin-left:10%;
+    margin-left:0%;
     text-align:left;
 }
 .lapalettedugoutbis .denomination p
@@ -429,7 +317,7 @@ flex-direction:column;
 }
 .lapalettedugoutbis .prix
 {
-    margin-right:10%;
+    margin-right:0%;
     text-align:right;
     font-size:0.9em;
 }
@@ -438,8 +326,27 @@ flex-direction:column;
 margin-top:0%;
 margin-bottom:0.3em;
 }
-
-
+.lapalettedugoutbis h2
+{
+font-size:4em;
+font-weight:lighter;
+font-family: palettedugout, "comic sans ms", serif ;
+background: -webkit-linear-gradient(left,#3D923A,#BFFF81 );
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.lapalettedugoutbis section
+{
+    font-size:1em;
+    font-family: "segoe print", "comic sans ms", serif ;
+}
+.lapalettedugoutbis svg
+{
+    width:50%;
+    background: -webkit-linear-gradient(left,#3D923A,#BFFF81 );
+    -webkit-background-clip: stroke;
+    -webkit-text-fill-color: transparent;
+}
 
 /******************************************************************************************
 *************************************ACCUEIL***********************************************
@@ -506,66 +413,144 @@ footer a
     margin-top:10%;
 }
 /******************************************************************************************
-*************************************NOTE ENCHANTEE****************************************
+*************************************COMMUN************************************************
 ******************************************************************************************/
 
-.noteenchanteebis main
+.shadow
+{
+    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
+}
+.colonnes
 {
     display:flex;
     flex-direction:column;
-    align-self:center;
-    margin-top:5%;
-    width:80%;
-    margin-bottom:15%;
-    background-color:#FCDFDB;
-    text-align:center;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
 }
-.noteenchanteebis section
+.center
 {
-display:flex;
-flex-direction:column;
-
+    text-align:center;
 }
-.noteenchanteebis
+.left
+{
+    text-align:left;
+}
+.right
+{
+    text-align:right;
+}
+.top0, .noteenchanteebis .denomination p, .noteenchanteebis .prix p, .chicalafrancaisebis .prix p, .chicalafrancaisebis .denomination p,  .delicedespapillesbis .denomination p, .delicedespapillesbis .prix p
+{
+    margin-top:0%;
+}
+.top5
+{
+    margin-top:5%;
+}
+.top10
+{
+    margin-top:10%;
+}
+.bold
+{
+    font-weight:bold;
+}
+.lighter
+{
+    font-weight:lighter;
+}
+.segoe
 {
     font-family: "segoe print", "comic sans ms", serif ;
-    color:#58272e;
-    font-size:0.8em;
 }
-.noteenchanteebis .alignement
+.width25
+{
+    width:25%;
+}
+.width40
+{
+    width:40%;
+}
+.width80
+{
+    width:80%;
+}
+.between
 {
     display:flex;
     justify-content:space-between;
 }
+.heightaccueil
+{
+    height:27em;
+}
+.JCcenter
+{
+    display:flex;
+    justify-content:center
+}
+
+.width95
+{
+    width:95%;
+}
+.svdemitour
+{
+    transform: scale(-1, 1)
+}
+
+/******************************************************************************************
+*************************************NOTE ENCHANTEE****************************************
+******************************************************************************************/
+.noteenchantee h5
+{
+    margin-bottom:0%;
+    font-size:1.8em;
+}
+.noteenchantee .menu
+{
+    font-size:2.2em;
+}
+.noteenchanteebis main
+{
+    align-self:center;
+    margin-bottom:15%;
+}
+.NEbgcolor
+{
+    background-color:#FCDFDB;
+}
+
+.NEcolor
+{
+    color:#58272e;
+}
+.NEpolice
+{
+    font-family: noteenchantee, "comic sans ms", serif ;
+}
+.noteenchanteebis
+{
+    font-size:0.8em;
+}
+
 .noteenchanteebis .denomination
 {
     font-size:1.0em;
-    text-align:left;
-
 }
 .noteenchanteebis .denomination p
 {
-    margin-top:0%;
     margin-bottom:3%;
 }
 .noteenchanteebis .prix
 {
-    text-align:right;
-    font-weight:bold;
     font-size:1.2em;
 }
 .noteenchanteebis .prix p
 {
-    margin-top:0%;
     margin-bottom:12%;
 }
 .noteenchanteebis h2, .noteenchanteebis h3
 {
     font-size:2.5em;
-    font-weight:lighter;
-    color:#58272e;
-    font-family: noteenchantee, "comic sans ms", serif ;
 }
 .noteenchanteebis h3
 {
@@ -574,12 +559,8 @@ flex-direction:column;
 }
 .noteenchanteebis h4
 {
-    display:flex;
-    justify-content:space-between;
     font-size:1.5em;
-    font-weight:bold;
-    margin-top:10%;
-    margin-bottom:3%;
+    margin-bottom:5%;
 }
 .svgauche
 {
@@ -686,7 +667,7 @@ main
 {
     margin-top:25%;
 }
-section
+/*section
 {
     width:80%;
     display:flex;
