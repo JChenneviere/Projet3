@@ -654,7 +654,7 @@ section
 .prochainement p
 {
     margin:auto;
-    font-size:1.5em;
+    font-size:1.3em;
     color:#FDCB46;
     margin-bottom:10%;
 }
@@ -663,17 +663,20 @@ section
 ******************************************************************************************/
 .noteenchanteebis
 {
-    width:100%;
     font-size:0.7em;
 }
 
 .noteenchanteebis h4 
 {
-    font-size:1.4em;
+    font-size:1.3em;
 }
 .noteenchanteebis main
 {
     width:100%;
+    margin-top:0%;
 }
-
+.noteenchanteebis .between
+{
+font-size:0.7em;
+}
 }
