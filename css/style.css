@@ -663,17 +663,17 @@ section
 ******************************************************************************************/
 .noteenchanteebis
 {
+    width:100%;
     font-size:0.7em;
 }
-.noteenchanteebis .prix p
-{
-    margin-top:30%;
-    padding-bottom:26%;
-}
+
 .noteenchanteebis h4 
 {
-    font-size:1em;
+    font-size:1.4em;
 }
-
+.noteenchanteebis main
+{
+    width:100%;
+}
 
 }
