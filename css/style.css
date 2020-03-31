@@ -25,7 +25,7 @@
 body
 {
     margin:auto;
-    width:40%;
+    width:50%;
     display:flex;
     flex-direction:column;
     border:1px solid black;
@@ -53,10 +53,11 @@ main
 }
 section
 {
-    width:80%;
+    margin:auto;
+    width:90%;
     display:flex;
     flex-wrap:wrap;
-    margin:auto;
+
     justify-content:space-around;
 }
 
@@ -184,7 +185,7 @@ width:100%;
  
     background-color:#fbfbfb;
 
-    font-family: delicedespapilles, "comic sans ms", serif ;
+    font-family: "delicedespapilles", "comic sans ms", serif ;
 }
 .delicedespapilles h5
 {
@@ -300,26 +301,21 @@ flex-direction:column;
 }
 .lapalettedugoutbis .denomination
 {
+    font-size:0.8em;
     margin-left:0%;
     text-align:left;
 }
 .lapalettedugoutbis .denomination p
 {
-    font-size:0.8em;
+
     margin-top:0%;
     margin-bottom:0.8em;
 }
 .lapalettedugoutbis .prix
 {
-    margin-right:0%;
-    text-align:right;
-    font-size:0.9em;
+    font-size:1.3em;
 }
-.lapalettedugoutbis .prix p
-{
-margin-top:0%;
-margin-bottom:0.3em;
-}
+
 .lapalettedugoutbis h2
 {
 font-size:4em;
@@ -334,19 +330,14 @@ background: -webkit-linear-gradient(left,#3D923A,#BFFF81 );
     font-size:1em;
     font-family: "segoe print", "comic sans ms", serif ;
 }
-.lapalettedugoutbis svg
-{
-    width:50%;
-    background: -webkit-linear-gradient(left,#3D923A,#BFFF81 );
-    -webkit-background-clip: stroke;
-    -webkit-text-fill-color: transparent;
-}
+
 
 /******************************************************************************************
 *************************************ACCUEIL***********************************************
 ******************************************************************************************/
 a
 {
+    width:100%;
     display:flex;
     flex-direction:column;
     text-align:center;
@@ -376,15 +367,15 @@ footer
     position:fixed;
     margin-top:2em;
     bottom:0px;
-    width:40%;
+    width:50%;
     height:70px;
     background-color: #579C87;
     display:flex;
-    justify-content:space-between;
-    align-items:center;
+
 }
 footer a
 {
+
     font-size:1.6em;
     margin-left:2%;
     margin-right:2%;
@@ -393,23 +384,17 @@ footer a
     text-decoration: none;
     font-family: footer, "comic sans ms", serif ;
 }
-.pagemenu
-{
-    display:flex;
-    justify-content:center;
 
-}
-.pagemenu img
-{
-    margin-bottom:10%;
-    width:80%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    margin-top:10%;
-}
+
 /******************************************************************************************
 *************************************COMMUN************************************************
 ******************************************************************************************/
-
+img
+{
+    margin-top:2%;
+    height:4%;
+    width:35%;
+}
 .shadow
 {
     box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
@@ -427,9 +412,17 @@ footer a
 {
     text-align:left;
 }
+.ML0 
+{
+    margin-left:-20%;
+}
 .ML10
 {
     margin-left:10%;
+}
+.ML15
+{
+    margin-left:15%;
 }
 .right
 {
@@ -438,6 +431,10 @@ footer a
 .MR10
 {
     margin-right:10%;
+}
+.MR15
+{
+    margin-right:15%;
 }
 .top0, .noteenchanteebis .denomination p, .noteenchanteebis .prix p, .chicalafrancaisebis .prix p, .chicalafrancaisebis .denomination p,  .delicedespapillesbis .denomination p, .delicedespapillesbis .prix p
 {
@@ -471,6 +468,20 @@ footer a
 {
     width:40%;
 }
+.width50
+{
+    display:flex;
+    align-self:center;
+    margin-bottom:0%;
+    height:10%;
+    width:15%;
+}
+.width500
+{
+    margin-bottom:3%;
+    height:6%;
+    width:6%;
+}
 .width80
 {
     width:80%;
@@ -479,6 +490,11 @@ footer a
 {
     display:flex;
     justify-content:space-between;
+}
+.around
+{
+    display:flex;
+    justify-content:space-around;
 }
 .heightaccueil
 {
@@ -513,6 +529,7 @@ footer a
 }
 .noteenchanteebis main
 {
+    font-size:0.8em;
     align-self:center;
     margin-bottom:15%;
 }
@@ -529,11 +546,6 @@ footer a
 {
     font-family: noteenchantee, "comic sans ms", serif ;
 }
-.noteenchanteebis
-{
-    font-size:0.8em;
-}
-
 .denomination
 {
 
@@ -553,12 +565,16 @@ footer a
 {
     margin-bottom:12%;
 }
-.noteenchanteebis h2, .noteenchanteebis h3
+.noteenchanteebis h2
 {
     font-size:2.5em;
+    margin-bottom
 }
 .noteenchanteebis h3
 {
+    display:flex;
+    align-items:center;
+
     font-size:2em;
     padding-bottom:5%;
 }
