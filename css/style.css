@@ -579,29 +579,19 @@ footer a
 {
     body
     {
-        margin:auto;
         width:100%;
-        display:flex;
-        border:1px solid black;
     }
     header
     {
-        position:fixed;
         height:120px;
         width:100%;
         text-align:center;
-        background-color: #579C87;
     }
     footer
 {
-    position:fixed;
     bottom:0px;
     width:100%;
     height:70px;
-    background-color: #579C87;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
 }
 }
 
@@ -610,16 +600,11 @@ footer a
     body
     {
         width:70%;
-        display:flex;
-        border:1px solid black;
     }
     header
     {
-        position:fixed;
         height:120px;
-        width:70%;
-        text-align:center;
-        background-color: #579C87;
+        width:100%;
     }
     footer
 {
@@ -627,24 +612,17 @@ footer a
     bottom:0px;
     width:70%;
     height:70px;
-    background-color: #579C87;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+
 }
 }
 @media all and (max-width: 650px)
 {
     body
     {
-        margin:auto;
         width:100%;
-        display:flex;
-        border:1px solid black;
     }
     header
     {
-        position:fixed;
         margin-bottom:5%;
         height:120px;
         width:100%;
@@ -653,79 +631,49 @@ footer a
     }
     footer
 {
-    position:fixed;
-    margin-top:10%;
-    bottom:0px;
-    width:100%;
+    margin-top:15%;
     height:70px;
-    background-color: #579C87;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    width:100%;
 }
-main 
+
+section
 {
-    margin-top:25%;
-}
-/*section
-{
-    width:80%;
     display:flex;
     flex-direction:column;
     margin:auto;
 }
-.noteenchantée
+.thumbaccueil, .noteenchantee, .chicalafrancaise, .lapalettedugout, .delicedespapilles
 {
     margin:auto;
     display:flex;
-    width: 80%;
-    height: 20em;
-    background-color:#FCDFDB;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
+    width:80%;
+    height:20em;
+    margin-bottom:5%;
+}
 
-}
-.chicalafrancaise
-{
-    margin:auto;
-    display:flex;
-    width: 80%;
-    height: 20em;
-    background-color:#fbf3fb;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
-
-}
-.lapalettedugout
-{
-    margin:auto;
-    display:flex;
-    width: 80%;
-    height: 20em;
-    background-color:#ffffff;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
-    font-family: palettedugout, "comic sans ms", serif ;
-}
-.delicedespapilles
-{
-    margin:auto;
-    display:flex;
-    width: 80%;
-    height: 20em;
-    background-color:#fbfbfb;
-    margin-top:5%;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
-    justify-content:center;
-    font-family: delicedespapilles, "comic sans ms", serif ;
-}
 .prochainement p
 {
     margin:auto;
-    font-size:1.7em;
+    font-size:1.5em;
     color:#FDCB46;
+    margin-bottom:10%;
 }
+/******************************************************************************************
+*************************************NOTE ENCHANTEE****************************************
+******************************************************************************************/
+.noteenchanteebis
+{
+    font-size:0.7em;
+}
+.noteenchanteebis .prix p
+{
+    margin-top:30%;
+    padding-bottom:26%;
+}
+.noteenchanteebis h4 
+{
+    font-size:1em;
+}
+
+
 }
