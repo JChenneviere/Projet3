@@ -24,9 +24,7 @@
    }
    body
 {
-    margin-left:25%;
-    margin-top:0%;
-    margin-bottom:0%;
+    margin:auto;
     width:50%;
     display:flex;
     flex-direction:column;
@@ -300,7 +298,7 @@ width:100%;
 }
 .lapalettedugoutbis .prix
 {
-    font-size:1.3em;
+    font-size:1.2em;
 }
 
 .lapalettedugoutbis h2
@@ -401,7 +399,7 @@ img
 }
 .ML0 
 {
-    margin-left:-20%;
+    margin-left:0%;
 }
 .ML10
 {
@@ -684,6 +682,7 @@ section
 {
     font-size:1.1em;
 }
+
 .fontres
 {
     font-size:0.8em;
