@@ -22,9 +22,11 @@
     font-family: "footer";
     src: url("../font/bsb text classic.ttf") format("truetype");      
    }
-body
+   body
 {
-    margin:auto;
+    margin-left:25%;
+    margin-top:0%;
+    margin-bottom:0%;
     width:50%;
     display:flex;
     flex-direction:column;
@@ -279,31 +281,16 @@ width:100%;
 .lapalettedugoutbis main
 {
     display:flex;
-    align-self:center;
-
-    width:80%;
     margin-top:4%;
     margin-bottom:15%;
     padding-bottom:5%;
-    overflow-y:auto;
-    text-align:center;
-    box-shadow: 0px 0px 5px 3px rgba(212, 212, 212, 0.3);
 }
-.lapalettedugoutbis section
-{
-display:flex;
-flex-direction:column;
-}
-.lapalettedugoutbis .alignement
-{
-    display:flex;
-    justify-content:space-between;
-}
+
 .lapalettedugoutbis .denomination
 {
     font-size:0.8em;
     margin-left:0%;
-    text-align:left;
+
 }
 .lapalettedugoutbis .denomination p
 {
@@ -548,7 +535,6 @@ img
 }
 .denomination
 {
-
     font-size:1.0em;
     display:flex;
     justify-content:space-between;
@@ -640,7 +626,11 @@ img
 {
     body
     {
+        margin:auto;
         width:100%;
+        display:flex;
+        flex-direction:column;
+        border:1px solid black;
     }
     header
     {
@@ -671,7 +661,18 @@ section
     height:20em;
     margin-bottom:5%;
 }
-
+.chicalafrancaisebis h3
+{
+    font-size:0.88em;
+}
+.chicalafrancaisebis h2
+{
+    font-size:1.7em;
+}
+.delicedespapillesbis h2, .lapalettedugoutbis h2
+{
+    font-size:2.5em;
+}
 .prochainement p
 {
     margin:auto;
@@ -679,25 +680,27 @@ section
     color:#FDCB46;
     margin-bottom:10%;
 }
-/******************************************************************************************
-*************************************NOTE ENCHANTEE****************************************
-******************************************************************************************/
-.noteenchanteebis
+.noteenchanteebis h4
 {
-    font-size:0.54em;
+    font-size:1.1em;
+}
+.fontres
+{
+    font-size:0.8em;
 }
 
-.noteenchanteebis h4 
+.widthres
 {
-    font-size:1.6em;
+    width:100%;
 }
 .noteenchanteebis main
 {
-    width:100%;
     margin-top:0%;
 }
-
+.lapalettedugoutbis img 
 {
-font-size:0.76em;
+    margin-top:3%;
+    width:25%;
 }
+
 }
