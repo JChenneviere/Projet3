@@ -22,13 +22,12 @@
     font-family: "footer";
     src: url("../font/bsb text classic.ttf") format("truetype");      
    }
-   body
+body
 {
     margin:auto;
     width:50%;
     display:flex;
     flex-direction:column;
-    border:1px solid black;
 }    
 header
 {
@@ -57,7 +56,6 @@ section
     width:90%;
     display:flex;
     flex-wrap:wrap;
-
     justify-content:space-around;
 }
 
@@ -89,7 +87,6 @@ section
 }
 .chicalafrancaisebis main
 {
-
     margin-bottom:15%;
     padding-bottom:5%;
 }
@@ -100,28 +97,6 @@ width:100%;
 .chicalafrancaisebis
 {
     font-family: "Calisto MT", "comic sans ms", serif ;
-}
-.chicalafrancaisebis .alignement
-{
-    align-self:center;
-}
-.chicalafrancaisebis .denomination
-{
-
-}
-.chicalafrancaisebis .denomination p
-{
-    font-size:0.9em;
-    margin-bottom:0.8em;
-}
-.chicalafrancaisebis .prix
-{
-    margin-right:5%;
-    font-size:0.9em;
-}
-.chicalafrancaisebis .prix p
-{
-    margin-bottom:0.8em;
 }
 .chicalafrancaisebis h2
 {
@@ -137,13 +112,6 @@ width:100%;
     font-size:1.3em;
     padding-bottom:2%;
 }
-.marge
-{
-    width:80%;
-    margin-left:10%;
-    margin-right:10%;
-}
-
 .chicalafrancaisebis .entree
 {
     color:#c87a21;
@@ -160,13 +128,24 @@ width:100%;
 {
     width:31%
 }
+.CAF_animtitre_entree:hover:after
+{
+    width: 100%;
+    background: #c87a21;
+}
+.CAF_animtitre_plat:hover:after
+{
+    width: 100%;
+    background: #A56799;
+}
+.CAF_animtitre_dessert:hover:after
+{
+    width: 100%;
+    background: #6E4CCC;
+}
 .entree-ornement
 {
     fill:#c87a21;
-}
-.demitour-ornement
-{
-    transform:rotate(0.5turn)
 }
 .plat-ornement
 {
@@ -176,15 +155,17 @@ width:100%;
 {
     fill:#6E4CCC;
 }
+.demitour-ornement
+{
+    transform:rotate(0.5turn)
+}
 /******************************************************************************************
 *************************************DELICES DES PAPILLES**********************************
 ******************************************************************************************/
 
 .delicedespapilles
 {
- 
     background-color:#fbfbfb;
-
     font-family: "delicedespapilles", "comic sans ms", serif ;
 }
 .delicedespapilles h5
@@ -203,26 +184,15 @@ width:100%;
     font-family: "segoe print", "comic sans ms", serif ;
     font-weight: bold;
 }
-
-
-
-
 .delicedespapillesbis main
 {
     margin-bottom:10%;
     padding-bottom:5%;
     background-color:#EDEFEF;
 }
-
-.delicedespapillesbis .denomination p
+.delicedespapillesbis p
 {
-    font-size:0.8em;
-    margin-bottom:0.8em;
-}
-
-.delicedespapillesbis .prix p
-{
-    margin-bottom:0.3em;
+    font-size:0.9em;
 }
 .delicedespapillesbis h2
 {
@@ -239,17 +209,32 @@ width:100%;
     font-size:1.0em;
     padding-bottom:2%;
 }
+.DDP_animtitre_entree:hover:after
+{
+    width: 100%;
+    background: #0228DD;
+}
+.DDP_animtitre_plat:hover:after
+{
+    width: 100%;
+    background: #0670F3;
+}
+.DDP_animtitre_dessert:hover:after
+{
+    width: 100%;
+    background: #229DF9;
+}
 .delicedespapillesbis .entree2
 {
     fill:#0228DD;
 }
 .delicedespapillesbis .plat2
 {
-    fill:#0670F3
+    fill:#0670F3;
 }
 .delicedespapillesbis .dessert2
 {
-    fill:#229DF9
+    fill:#229DF9;
 }
 
 /******************************************************************************************
@@ -283,18 +268,10 @@ width:100%;
     margin-bottom:15%;
     padding-bottom:5%;
 }
-
 .lapalettedugoutbis .denomination
 {
     font-size:0.8em;
     margin-left:0%;
-
-}
-.lapalettedugoutbis .denomination p
-{
-
-    margin-top:0%;
-    margin-bottom:0.8em;
 }
 .lapalettedugoutbis .prix
 {
@@ -310,13 +287,29 @@ background: -webkit-linear-gradient(left,#3D923A,#BFFF81 );
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.lapalettedugoutbis section
+.LPDG_animtitre_entree:hover:after
 {
-    font-size:1em;
-    font-family: "segoe print", "comic sans ms", serif ;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #3D923A,#BFFF81,#3D923A);
+    -webkit-background-clip: content;
+    -webkit-text-fill-color: transparent;
 }
-
-
+.LPDG_animtitre_plat:hover:after
+{
+    height:3px;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #3D923A,#BFFF81,#3D923A);
+    -webkit-background-clip: content;
+    -webkit-text-fill-color: transparent;
+}
+.LPDG_animtitre_dessert:hover:after
+{
+    height:2px;
+    width: 100%;
+    background: -webkit-linear-gradient(left, #3D923A,#BFFF81,#3D923A);
+    -webkit-background-clip: content;
+    -webkit-text-fill-color: transparent;
+}
 /******************************************************************************************
 *************************************ACCUEIL***********************************************
 ******************************************************************************************/
@@ -329,6 +322,29 @@ a
     justify-content:center;
     outline: none;
     text-decoration: none;
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transform:scale(1);
+    overflow:hidden;
+}
+
+article a:hover
+{
+    transition-property: transform;
+    transition-duration: 1000ms;
+    transform:scale(1.15);
+    opacity: 0.6;
+}
+.fade 
+{
+    opacity: 1;
+    transition: opacity 1000ms ease-in-out;
+    -moz-transition: opacity 1000ms ease-in-out;
+    -webkit-transition: opacity 1000ms ease-in-out;
+}
+.fade:hover 
+{
+    opacity: 0.6;
 }
 .prochainement
 {
@@ -340,12 +356,26 @@ a
     height:3em;
     border-radius: 10px;
 }
-.prochainement p
+@keyframes suspension 
 {
-    font-size:2.2em;
+    0% { content:" "; }
+    33% { content:" ."; } 
+    66% { content:" . ."; }
+    99% { content:" . . ."; }
+}
+.suspension:after
+{
+    display: inline-block;
+    animation: suspension 3s infinite;
+    content:" ";
+}
+.prochainement h5
+{
+    font-family: "footer", "comic sans ms", serif ;
+    font-weight:lighter;
+    font-size:1.8em;
     color:#FDCB46;
     margin-top:2%;
-
 }
 footer
 {
@@ -356,11 +386,11 @@ footer
     height:70px;
     background-color: #579C87;
     display:flex;
-
+    justify-content:space-between;
+    overflow:hidden;
 }
 footer a
 {
-
     font-size:1.6em;
     margin-left:2%;
     margin-right:2%;
@@ -368,9 +398,42 @@ footer a
     outline: none;
     text-decoration: none;
     font-family: footer, "comic sans ms", serif ;
+    text-align:left;
+
 }
 
 
+@keyframes wiggle {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.wiggle:hover {
+  animation: wiggle 700ms infinite;
+}
+
+.mentionslegales main
+{
+    margin-top:5%;
+    margin-bottom:10%;
+    background-color:grey;
+    color:white;
+}
+.mentionslegales main p
+{
+    margin-top:2%;
+    margin-left:5%;
+    margin-right:5%;
+}
 /******************************************************************************************
 *************************************COMMUN************************************************
 ******************************************************************************************/
@@ -389,11 +452,16 @@ img
     display:flex;
     flex-direction:column;
 }
+.wrap
+{
+    display:flex;
+    flex-wrap:wrap;
+}
 .center
 {
     text-align:center;
 }
-.left
+.left, article
 {
     text-align:left;
 }
@@ -421,10 +489,11 @@ img
 {
     margin-right:15%;
 }
-.top0, .noteenchanteebis .denomination p, .noteenchanteebis .prix p, .chicalafrancaisebis .prix p, .chicalafrancaisebis .denomination p,  .delicedespapillesbis .denomination p, .delicedespapillesbis .prix p
+.top0, p
 {
     margin-top:0%;
 }
+
 .top5
 {
     margin-top:5%;
@@ -499,6 +568,17 @@ img
 {
     transform: scale(-1, 1)
 }
+.NE_animtitre:after, .CAF_animtitre_entree:after, .CAF_animtitre_plat:after, .CAF_animtitre_dessert:after,
+.DDP_animtitre_entree:after, .DDP_animtitre_plat:after, .DDP_animtitre_dessert:after,
+.LPDG_animtitre_entree:after, .LPDG_animtitre_plat:after, .LPDG_animtitre_dessert:after
+{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    transition: 500ms;
+}
+
 
 /******************************************************************************************
 *************************************NOTE ENCHANTEE****************************************
@@ -520,16 +600,19 @@ img
 }
 .NEbgcolor
 {
-    background-color:#FCDFDB;
+   background-color:#FCDFDB;
 }
-
+.NE_animtitre:hover:after {
+    width: 100%;
+    background: #58272e;
+}
 .NEcolor
 {
     color:#58272e;
 }
 .NEpolice
 {
-    font-family: noteenchantee, "comic sans ms", serif ;
+    font-family: "noteenchantee", "comic sans ms", serif ;
 }
 .denomination
 {
@@ -671,7 +754,7 @@ section
 {
     font-size:2.5em;
 }
-.prochainement p
+.prochainement h5
 {
     margin:auto;
     font-size:1.3em;
