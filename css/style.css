@@ -25,7 +25,7 @@
 body
 {
     margin:auto;
-    width:50%;
+    width:60%;
     display:flex;
     flex-direction:column;
 }    
@@ -92,7 +92,7 @@ section
 }
 .chicalafrancaisebis section
 {
-width:100%;
+    width:100%;
 }
 .chicalafrancaisebis
 {
@@ -109,7 +109,7 @@ width:100%;
 }
 .chicalafrancaisebis h3
 {
-    font-size:1.3em;
+    font-size:1.1em;
     padding-bottom:2%;
 }
 .chicalafrancaisebis .entree
@@ -135,11 +135,13 @@ width:100%;
 }
 .CAF_animtitre_plat:hover:after
 {
+    height:3px;
     width: 100%;
     background: #A56799;
 }
 .CAF_animtitre_dessert:hover:after
 {
+    height:3px;
     width: 100%;
     background: #6E4CCC;
 }
@@ -192,7 +194,7 @@ width:100%;
 }
 .delicedespapillesbis p
 {
-    font-size:0.9em;
+    font-size:0.85em;
 }
 .delicedespapillesbis h2
 {
@@ -226,14 +228,18 @@ width:100%;
 }
 .delicedespapillesbis .entree2
 {
+    width:30%;
     fill:#0228DD;
 }
 .delicedespapillesbis .plat2
 {
+
+    width:30%;
     fill:#0670F3;
 }
 .delicedespapillesbis .dessert2
 {
+    width:30%;
     fill:#229DF9;
 }
 
@@ -382,7 +388,7 @@ footer
     position:fixed;
     margin-top:2em;
     bottom:0px;
-    width:50%;
+    width:60%;
     height:70px;
     background-color: #579C87;
     display:flex;
@@ -420,13 +426,15 @@ footer a
 .wiggle:hover {
   animation: wiggle 700ms infinite;
 }
-
+/******************************************************************************************
+*************************************MENTIONS LEGALES**************************************
+******************************************************************************************/
 .mentionslegales main
 {
     margin-top:5%;
     margin-bottom:10%;
-    background-color:grey;
-    color:white;
+    background-color:#579C87;
+    color: #FDCB46;
 }
 .mentionslegales main p
 {
@@ -705,29 +713,36 @@ img
 }
 @media all and (max-width: 650px)
 {
-    body
-    {
-        margin:auto;
-        width:100%;
-        display:flex;
-        flex-direction:column;
-        border:1px solid black;
-    }
-    header
-    {
-        margin-bottom:5%;
-        height:120px;
-        width:100%;
-        text-align:center;
-        background-color: #579C87;
-    }
-    footer
+
+.chicalafrancaisebis h3,  .delicedespapillesbis h3
+{
+    font-size:0.88em;
+}
+
+/******************************************************************************************
+*************************************ACCUEIL***********************************************
+******************************************************************************************/
+body
+{
+    margin:auto;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+header
+{
+    margin-bottom:5%;
+    height:120px;
+    width:100%;
+    text-align:center;
+    background-color: #579C87;
+}
+footer
 {
     margin-top:15%;
     height:70px;
     width:100%;
 }
-
 section
 {
     display:flex;
@@ -742,30 +757,10 @@ section
     height:20em;
     margin-bottom:5%;
 }
-.chicalafrancaisebis h3
+.width_res_25
 {
-    font-size:0.88em;
+    width:25%;
 }
-.chicalafrancaisebis h2
-{
-    font-size:1.7em;
-}
-.delicedespapillesbis h2, .lapalettedugoutbis h2
-{
-    font-size:2.5em;
-}
-.prochainement h5
-{
-    margin:auto;
-    font-size:1.3em;
-    color:#FDCB46;
-    margin-bottom:10%;
-}
-.noteenchanteebis h4
-{
-    font-size:1.1em;
-}
-
 .fontres
 {
     font-size:0.8em;
@@ -775,14 +770,75 @@ section
 {
     width:100%;
 }
-.noteenchanteebis main
+.prochainement
 {
-    margin-top:0%;
+    margin-top:3%;
+    margin-bottom:10%;
+    width:50%;
+    height:3em;
+    border-radius: 10px;
 }
+.prochainement h5
+{
+    margin:auto;
+    font-size:1.1em;
+    color:#FDCB46;
+    margin-bottom:10%;
+}
+
+/******************************************************************************************
+*************************************LA PALETTE DU GOUT************************************
+******************************************************************************************/
 .lapalettedugoutbis img 
 {
     margin-top:3%;
     width:25%;
 }
+
+/******************************************************************************************
+*************************************NOTE ENCHANTEE****************************************
+******************************************************************************************/
+.noteenchanteebis h4
+{
+    font-size:1.1em;
+}
+.noteenchanteebis main
+{
+    margin-top:0%;
+}
+.svgauche
+{
+    margin-top:-1%;
+}
+/******************************************************************************************
+*************************************DELICES DES PAPILLES**********************************
+******************************************************************************************/
+.delicedespapillesbis .ornement 
+{
+    width:25%;
+    margin-top:-1%;
+}
+
+
+
+/******************************************************************************************
+*************************************CHIC A LA FRANCAISE***********************************
+******************************************************************************************/
+
+.chicalafrancaisebis h2
+{
+    font-size:1.7em;
+}
+.delicedespapillesbis h2, .lapalettedugoutbis h2
+{
+    font-size:2.5em;
+}
+
+
+
+
+
+
+
 
 }
